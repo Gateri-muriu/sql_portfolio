@@ -142,6 +142,6 @@ Python is the most demanded skills in Data Science role seconded by SQL thus mak
 The most paying skill in Data Scientist is Asana followed closely by Airtable which are associated with the highest average salary.
 5. **Optimal skills**:
 The optimal skill in the market is Pthon with highest demand counts for the Data Scientist.
-### Findings
+### Closing Thoughts
 This project enhanced my skills and provided valuable insights into the data scientist job market. The findings from the analysis guide to prioritizing skills development and search efforts. Aspiring data scientist can position themselves in a competitive job market by focusing on high demand, high salaries skills. 
 
