@@ -10,7 +10,6 @@ Question: What are the most in-demand skills for data scientists?
 
 SELECT 
     skills,
-    s.job_id,
     COUNT(s.job_id) AS demand_count
 FROM    
     job_postings_fact AS j
@@ -19,8 +18,7 @@ FROM
 WHERE
     job_title_short = 'Data Scientist' 
 GROUP BY
-    skills,
-    s.job_id
+    skills
 ORDER BY 
     demand_count DESC
-LIMIT 5
+LIMIT 5;

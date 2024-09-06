@@ -31,7 +31,8 @@ FROM
     INNER JOIN skills_job_dim AS s ON t.job_id = s.job_id
     INNER JOIN skills_dim AS sd ON s.skill_id = sd.skill_id
  ORDER BY 
-    salary_year_avg DESC;
+    salary_year_avg DESC
+LIMIT 10;
     
 
 
